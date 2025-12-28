@@ -1,0 +1,83 @@
+
+* { /* Significa "TUDO" = o que for colocado aqui, será aplicado em todo projeto */
+    
+    margin: 0; /* MARGEM = ESPAÇOS FORA DAS CAIXAS*/
+    padding: 0; /* PADDING = ESPAÇOS DENTRO DAS CAIXAS*/
+    box-sizing: border-box; /* box-sizing: border box = DEFINE OS TAMANHOS PARA NÃO SEREM ALTERADOS*/
+    font-family: "Bebas Neue", sans-serif;
+    /* background: COR DE FUNDO DO TEXTO*/
+}
+
+.copo-grande{ /* .copo-grande = AO DECLARAR UMA CLASSE, É NECESSÁRIO COLOCAR UM '.' ANTES DO NOME */
+    width: 350px; /* LARGURA DA IMAGEM */
+}
+
+.conteudo{
+    width: 100%;
+    display: flex; /* FORMA DE MOSTRAR OS ITENS DESTA CLASSE */
+    align-items: center; /* TIPO DE ALINHAMENTO DOS ITENS */
+    justify-content: space-between; /* ESPAÇO ENTRE OS ITENS */
+}
+
+.textos{
+    font-size: 18px; /* TAMANHO DA FONTE */
+    width: 600px;
+}
+
+.menu{
+   display: flex;
+   justify-content: center;
+   gap: 20px; /* ESPAÇAMENTO ENTRE OS ÍCONES DENTRO DA CAIXA */
+}
+
+.botao-menu{
+    width: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.botao-menu:hover{
+    transform: translateY(-30px);
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: bold; /* ESPESSURA DAS LETRAS */
+} 
+
+h1{
+    color: #333333;
+    font-size: 60px;
+    font-weight: bold;
+    /* color: COR DO TEXTO*/
+}
+p{
+    font-size: 20px;/* background: COR DE FUNDO DO TEXTO*/
+}
+
+button{
+    background: #017143;
+    color: #ffffff;
+    border-radius: 40px /* ARREDONDAMENTO DAS BORDAS DO BOTÃO */;
+    border: none;
+    font-size: 16px;
+    padding: 14px; /* ESPAÇAMENTO DENTRO */
+    margin-top: 20px; /* MARGEM DO TOPO */
+    cursor: pointer; /* CURSOR NO BOTÃO APARECE A MÃOZINHA*/
+    transition: 0.5s; /* TRANSIÇÃO DA COR DO BOTÃO */
+}
+
+button:hover{
+    background: #02a05e;
+    transform: translateY(-5px);
+}
+
+ body{
+
+    padding-top: 20px; /* TOPO */
+    padding-right: 100px; /* DIREITA */
+    padding-left: 100px; /* ESQUERDA */
+                        /* bottom = BAIXO */
+ }
+
