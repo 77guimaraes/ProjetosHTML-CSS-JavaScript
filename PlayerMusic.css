@@ -1,0 +1,27 @@
+
+
+/* Fonte base do projeto */
+body {
+  font-family: "Bebas Neue", sans-serif;
+  margin: center;
+  padding: center;
+}
+
+/* Opcional: ajustes visuais */
+h1 {
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
